@@ -1,11 +1,15 @@
 body {
+    margin: 0;
+}
 
+#top {
+    width: 100%;
+    margin: 0;
 }
 
 #navigation {
     background-color: black;
     color: white;
-    
 }
 
 #logoImage {
@@ -37,14 +41,40 @@ li a:hover {
     background-color: #111;
 }
 
+#navHome {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 #aboutMe {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
     border-style: solid;
-    margin-top: 5px;
+    border-width: 3px;
+    margin-top: 10px;
     display: flow-root;
 }
 
 #aboutMeImage {
     float: right;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+#aboutMeH1 {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#aboutMeP1 {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
 }
 
 footer {
@@ -58,5 +88,5 @@ footer {
 }
 
 #footer {
-    padding-bottom: ;
+    
 }
