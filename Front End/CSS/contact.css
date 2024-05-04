@@ -54,7 +54,7 @@ li a:hover {
     background-color: #111;
 }
 
-#navHome {
+#navPortfolio {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -63,62 +63,7 @@ li a:hover {
     
 }
 
-#aboutMe {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 3px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flow-root;
-}
 
-#aboutMeImage {
-    float: right;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-}
-
-#aboutMeH1 {
-    margin: 0;
-    padding-top: 10px;
-    text-align: center;
-}
-
-#aboutMeP1 {
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 15px;
-}
-
-#aboutMeButton {
-    border-style: none;
-
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 15px;
-
-    padding-top: 6px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-bottom: 6px;
-
-    background-color: #333;
-    color: white;
-}
-
-#aboutMeButton > a {
-    color: white;
-    text-decoration: none;
-}
-
-#aboutMeButton:hover {
-    box-shadow: 3px 3px 5px 3px rgb(0, 0, 0);
-}
 
 footer {
     display: flex;
