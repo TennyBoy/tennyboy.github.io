@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: rgb(25, 25, 25);
     color: white;
 
     min-height: 100vh;
@@ -83,7 +84,11 @@ li a {
 
 
 #topBackground {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(25, 25, 25);
+}
+
+#topImageBackground {
+    background-color: rgb(40, 40, 40);
 }
 
 #top {
@@ -99,10 +104,13 @@ li a {
 
 #tennison {
     width: 15%;
+    min-width: 100px;
 
     display: block;
+    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
 
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -111,15 +119,28 @@ li a {
     -o-border-radius: 50%;
 }
 
+#topH2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+
 #topH1 {
     margin-top: 10px;
     margin-bottom: 10px;
+
+    font-size: 32px;
+}
+
+#topParagraph {
+    font-size: 12px;
 }
 
 
 
 #aboutBackground {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(40, 40, 40);
 }
 
 #about {
@@ -133,14 +154,19 @@ li a {
     padding-bottom: 10px;
 }
 
-#aboutH2 {
+#aboutH1 {
     margin-bottom: 10px;
+    font-size: 32px;
+}
+
+#aboutParagraph {
+    font-size: 18px;
 }
 
 
 
 #portfolioBackground {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(25, 25, 25);
 }
 
 #portfolio {
