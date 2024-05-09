@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-    border: 1px none red;
+    border: 1px solid red;
 }
 
 #navbar {
@@ -91,6 +91,15 @@ li a {
     background-color: rgb(40, 40, 40);
 }
 
+#imgContainer {
+    width: 90%;
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #top {
     width: 90%;
 
@@ -103,7 +112,7 @@ li a {
 }
 
 #tennison {
-    width: 15%;
+    width: 18%;
     min-width: 100px;
 
     display: block;
@@ -185,6 +194,38 @@ li a {
 
 
 
+#contactBackground {
+    background-color: rgb(40, 40, 40);
+}
+
+#contact {
+    width: 90%;
+
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#contactH2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#mySubmit {
+    border: none;
+}
+
+#mySubmit:hover {
+    background-color: darkred;
+}
+
+
+
 footer {
     z-index: 1;
 
@@ -203,7 +244,7 @@ footer {
 }
 
 #footerContent {
-    width: 80%;
+    width: 90%;
     text-align: center;
 }
 

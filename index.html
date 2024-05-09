@@ -13,7 +13,7 @@
 
         <nav class="content">
             <ul>
-                <li><a href="#top">HOME</a></li>
+                <li><a href="#topNav">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
             </ul>
@@ -24,12 +24,17 @@
 
 
     <main>
-        
-        <div id="topBackground">
+        <div id="topNav">
 
-            <div class="content" id="topImageBackground">
+        <div id="topImageBackground">
+
+            <div class="content" id="imgContainer">
                 <img src="TennisonBoyce.jpg" id="tennison">
             </div>
+
+        </div>
+
+        <div id="topBackground">
 
             <section class="content" id="top">
             
@@ -40,6 +45,8 @@
                 <p id="topParagraph">With a passion to bring you the best media on the internet.</p>
 
             </section>
+        </div>
+
         </div>
         
 
@@ -61,9 +68,9 @@
 
                     I found my passion for photography through my love for cars. I started doing photography 
                     inside of video games such as Horizon: Zero Dawn and Need For Speed Heat. Once I got my 
-                    license at 16 I started driving around and taking pictures of every cool car I saw. I 
-                    would offer to do free photoshoots for everyone I met until I eventually landed my first 
-                    clients, a Dodge Charger and Challenger.
+                    license at 16 I started driving around and taking pictures of every cool car I saw. 
+                    I would offer to do free photoshoots for everyone I met until I eventually landed 
+                    my first clients, a Dodge Charger and Challenger.
                 </p>
 
             </section>
@@ -77,6 +84,31 @@
                 <h2 id="portfolioH2">Portfolio</h2>
 
             </section>
+        </div>
+
+
+
+        <div id="contactBackground">
+
+            <section class="content" id="contact">
+
+                <h2 id="contactH2">Let's Build Something Incredible Together</h2>
+
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="johndoe@email.com">
+
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" name="message" required placeholder="Enter your message here.">
+
+                    <button id="mySubmit">Submit</button>
+                </form>
+
+            </section>
+
         </div>
 
     </main>
