@@ -74,153 +74,66 @@ nav a {
 
 
 #heroBackground {
-    background-color: rgb(10, 10, 10);
+    background-image: url(IMG_1550.JPG);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
     height: 100vh;
 }
 
-#hero {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(70%);
-    -webkit-transform: translateY(70%);
-    -moz-transform: translateY(70%);
-    -ms-transform: translateY(70%);
-    -o-transform: translateY(70%);
-}
-
-#bold {
+#heroContent {
     user-select: none;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
 }
 
-#heroH5 {
-    text-align: center;
-    font-size: 24px;
-
-    padding-bottom: 10px;
+#heroText {
+    margin: 10px;
 }
 
 #heroH1 {
-    text-align: center;
     font-size: 75px;
-
-    border-top: 2px solid rgb(139, 0, 0);
-    border-bottom: 2px solid rgb(139, 0, 0);
-}
-
-#heroH6 {
-    text-align: center;
-    font-size: 15px;
-
-    padding-top: 10px;
 }
 
 #heroButtons {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 150px;
+    gap: 50px;
     margin-top: 25px;
-    margin-bottom: 25px;
 }
 
-.heroButtons {
+.heroLinks {
+    color: rgb(255,255,255);
     text-decoration: none;
-    background-color: transparent;
-    color: lightgray;
-    border: 2px solid rgb(139, 0, 0);
-    border-radius: 5%;
-    padding: 10px;
-    box-shadow: rgb(139, 0, 0) 0 0 15px;
+    border: 1px solid rgb(255,255,255);
+    box-shadow: rgb(255,255,255) 0 0 15px;
+    padding: 5px;
     transition: transform 0.3s;
     -webkit-transition: transform 0.3s;
     -moz-transition: transform 0.3s;
     -ms-transition: transform 0.3s;
     -o-transition: transform 0.3s;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
 }
 
-.heroButtons:hover {
-    background-color: rgb(255, 0, 0);
-    color: white;
-    box-shadow: rgb(255, 0, 0) 0 0 30px;
+.heroLinks:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+    box-shadow: rgb(255,255,255) 0 0 25px 5px;
     transform: translateY(-2px);
     -webkit-transform: translateY(-2px);
     -moz-transform: translateY(-2px);
     -ms-transform: translateY(-2px);
     -o-transform: translateY(-2px);
-}
-
-
-
-#aboutBackground {
-    background-color: rgb(10, 10, 10);
-    height: 100vh;
-}
-
-#about {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(70%);
-    -webkit-transform: translateY(70%);
-    -moz-transform: translateY(70%);
-    -ms-transform: translateY(70%);
-    -o-transform: translateY(70%);
-}
-
-#aboutH2 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-
-    border-top: 2px solid rgb(139, 0, 0);
-    border-bottom: 2px solid rgb(139, 0, 0);
-}
-
-
-
-#portfolioBackground {
-    background-color: rgb(10, 10, 10);
-    height: 100vh;
-}
-
-#portfolio {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-@media (orientation: portrait) {
-    nav {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    #heroH1 {
-        font-size: 50px;
-    }
-
 }
